@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 export default function Navbar() {
   // The Navbar UI component will render each of the Link elements in the links prop
   return (
-        <Nav variant="tabs" defaultActiveKey="/">
+        <Nav variant="pills" defaultActiveKey="/">
         <Nav.Item>
           <Nav.Link href="/">Lee Obungen</Nav.Link>
         </Nav.Item>
