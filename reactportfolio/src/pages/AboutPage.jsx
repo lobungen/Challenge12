@@ -1,4 +1,3 @@
-// This is a static page mocking an "About Us" section for our fake user data
 import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
 export default function AboutPage() {
