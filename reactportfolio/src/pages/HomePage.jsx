@@ -14,8 +14,11 @@ export default function HomePage() {
   return (
     <div>
       <div className="container pt-4">
-        <ul className="list-group list-group">Welcome to my Portfolio
-        </ul>
+        <ul className="list-group list-group"><h1>Welcome to Lee's Portfolio
+        </h1></ul>
+        Hi, I'm Lee. I'm a software developer with a passion for creating dynamic and user-friendly applications.
+        <br/>I specialize in front-end development, but I also have experience with back-end technologies.
+        <br/>Feel free to explore my portfolio and contact me if you'd like to work together!
       </div>
       <Col xs={6} md={4}>
         <Image src="../src/assets/profile.png" roundedCircle width={200} height={220} />

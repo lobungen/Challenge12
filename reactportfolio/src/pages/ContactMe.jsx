@@ -26,7 +26,7 @@ function ContactMe() {
             required
             type="text"
             placeholder="First name"
-            defaultValue="First name"
+
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
@@ -38,13 +38,13 @@ function ContactMe() {
             required
             type="text"
             placeholder="Last name"
-            defaultValue="Last name"
+
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
         </Row>
       <Row className="mb-3">
-        <Form.Group as={Col} md="6" controlId="validationCustom03">
+        <Form.Group as={Col} md="12" controlId="floatingTextarea2textarea">
           <Form.Label>Message</Form.Label>
           <Form.Control type="text" placeholder="Message" required />
           <Form.Control.Feedback type="invalid">
